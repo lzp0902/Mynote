@@ -1,0 +1,19 @@
+/* CSS Document */
+#content {width:500px;background:#E1EEFE;padding:8px;padding-bottom:0px;text-align:left;}
+
+#d_up_h {height:38px;}
+
+#d_up_h a{display:block;width:85px;height:25px;background:#E5F0FE url(/images/upload/btn_bg.png) no-repeat top; overflow:hidden}
+#d_up_h a:hover {background-position:25px 25px;}
+#d_up_h a .click{background-position:0px -50px;}
+
+
+.btn_up-1,.btn_up-2,.btn_up-3{cursor:pointer;display:block;width:85px;height:25px;background:#E5F0FE url(/images/upload/btn_bg.png) no-repeat top left; overflow:hidden;color:#61809D;float:left;marign-right:10px;}
+.btn_up-2{background-position:0px -25px;color:#6DACE7}
+.btn_up-3{background-position:0px -50px; }
+.btn_up-4{FILTER: gray}
+ 
+
+
+#d_list {background:#E1EEFE; width:500px;padding:6px;padding-bottom:0px;}
+#d_list_c {background:#FFFFFF; border:#A2C1E0 1px solid; overflow:auto; height:220px;padding:6px;}

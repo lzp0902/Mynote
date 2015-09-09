@@ -7,11 +7,11 @@
 <meta name="description" content="tquan网络记事本，安全、便捷、稳定的云端记事本。提供包括记事、随笔、日记本、收藏夹、短信备
 	忘和无限容量的网络相册。采用安全的加密访问，支持手机同步浏览。" />
 <title>云笔记</title>
-<link href="assets/themes/main/css/main.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="assets/libs/jquery/jquery-1.3.2.min.js"></script>
-<script type="text/javascript" src="assets/libs/thickbox/thickbox.js"></script>
-<link type="text/css" href="assets/libs/thickbox/thickbox.css" rel="stylesheet" />
-<script type="text/javascript" src="assets/js/common.js"></script>
+<link href="./css/themes/main/main.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="./js/jquery/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="./css/thickbox/thickbox.js"></script>
+<link type="text/css" href="./css/thickbox/thickbox.css" rel="stylesheet" />
+<script type="text/javascript" src="./js/common.js"></script>
 </head>
 <body>
 	<div id='header'>
@@ -51,7 +51,7 @@
 	<div id="index_main">
 		<div id="index_left">
 			<div id="logo_main">
-				<img src="assets/themes/main/images/xnote.logo.gif">
+				<img src="./css/themes/main/images/xnote.logo.gif">
 			</div>
 			<div id="intro">
 				<ul>
@@ -95,7 +95,7 @@
 						<label for="autologin">自动登录</label>
 						<div id="safetips" class="hide">提示：请不要在网吧或公用电脑上选择此项</div>
 						<div id="loading" class="hide" style="margin:10px 0;">
-							<img src="assets/images/loading.16.gif" align="absmiddle" />正在登录...
+							<img src="./images/loading.16.gif" align="absmiddle" />正在登录...
 						</div>
 						<div id="buttons" style="margin-top:10px;">
 							<input id="btnLogin" type="submit" value="登录" class="btn btn_def"
@@ -185,6 +185,6 @@
 		}
 	</script>
 	<%@ include file="footer.jsp"%>
-	<script type="text/javascript" src="assets/js/stats.js"></script>
+	<script type="text/javascript" src="./js/stats.js"></script>
 </body>
 </html>
