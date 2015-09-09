@@ -25,7 +25,7 @@ public class UserDmImpl extends HibernateDaoSupport implements UserDm,BeanFactor
         this.sessionFacotry = sessionFacotry;   
         this.hibernateTemplate=createHibernateTemplate(sessionFacotry);
     }
-    protected HibernateTemplate createHibernateTemplate(  
+    protected HibernateTemplate createHibernateTemplate(
     		 SessionFactory sessionFactory) {  
     	return new HibernateTemplate(sessionFactory);  
 	}
