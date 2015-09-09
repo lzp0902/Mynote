@@ -113,19 +113,6 @@
 		</div>
 	</div>
 	<script language="JavaScript" type="text/javascript">
-		if (top != self) {
-			window.parent.tb_remove();
-			window.parent.location.href = '/';
-		}
-		var childWindow;
-		function toQzoneLogin() {
-			childWindow = window.open("/connect/qq/oauth/redirect_to_login.php",
-							"TencentLogin",
-							"width=450,height=320,menubar=0,scrollbars=1, resizable=1,status=1,titlebar=0,toolbar=0,location=1");
-		}
-		function closeChildWindow() {
-			childWindow.close();
-		}
 		$(function() {
 			$('#btnLogin').click(function() {
 				login()

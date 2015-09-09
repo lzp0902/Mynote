@@ -1,6 +1,6 @@
 package com.lzping.cloudNote.vo;
 
-public class User {
+public class UserVO {
 	private int UserNo;
 	private String UserName;
 	private String Pwd;
