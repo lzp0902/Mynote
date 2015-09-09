@@ -50,5 +50,4 @@ public class User {
 	public void setImgPath(String imgPath) {
 		ImgPath = imgPath;
 	}
-	
 }
